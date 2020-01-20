@@ -2,6 +2,7 @@
 class Animal
 {
 	public $name;
+	protected $type;
 	public function __construct($name) {
 		$this->name = $name;
 	}
