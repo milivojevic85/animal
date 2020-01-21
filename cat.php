@@ -1,6 +1,6 @@
 <?php 
 require('animal.php');
-class Dog extends Animal
+class Cat extends Animal
 {
 	protected $type=__CLASS__;
 	public function __get($property) {
@@ -11,17 +11,17 @@ class Dog extends Animal
 		}
 	}
 	public function run() {
-		return $this->name." likes to run<br>";
+		return $this->name." hates to run<br>";
 	}
 	public function communicate() {
-		return $this->name." says bow bow<br>";
+		return $this->name." says meow<br>";
 	}
 }
 
-$dog = new Dog("Scooby");
-echo $dog->type;
-echo $dog->greet();
-echo $dog->run();
-echo $dog->communicate();
+$cat = new Cat("Cuddles");
+echo $cat->type;
+echo $cat->greet();
+echo $cat->run();
+echo $cat->communicate();
 
 ?>
