@@ -1,6 +1,6 @@
 <?php 
 require('animal.php');
-Class Dog extends Animal
+class Dog extends Animal
 {
 	protected $type=__CLASS__;
 	public function __get($property) {
