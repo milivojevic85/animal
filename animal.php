@@ -1,5 +1,6 @@
 <?php 
-class Animal
+require_once('iAnimal.php');
+class Animal implements IAnimal
 {
 	public $name;
 	protected $type;
@@ -10,10 +11,10 @@ class Animal
 		return "Hello ".$this->name."<br>";
 	}
 	public function run() {
-		return $this->name." runs<br>";
+		return $this->name." likes to run<br>";
 	}
 	public function communicate() {
-		return $this->name." says rrrrr<br>";
+		return $this->name." says bow bow<br>";
 	}
 }
 ?>

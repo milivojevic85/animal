@@ -10,12 +10,6 @@ class Dog extends Animal
 			return $property." does not exist<br>";
 		}
 	}
-	public function run() {
-		return $this->name." likes to run<br>";
-	}
-	public function communicate() {
-		return $this->name." says bow bow<br>";
-	}
 }
 
 $dog = new Dog("Scooby");
