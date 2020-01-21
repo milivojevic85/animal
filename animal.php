@@ -11,10 +11,10 @@ class Animal implements IAnimal
 		return "Hello ".$this->name."<br>";
 	}
 	public function run() {
-		return $this->name." likes to run<br>";
+		return $this->name." runs<br>";
 	}
 	public function communicate() {
-		return $this->name." says bow bow<br>";
+		return $this->name." says rrrrr<br>";
 	}
 }
 ?>
