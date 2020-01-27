@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>IAnimall</title>
+</head>
+<body>	
 <?php 
 interface IAnimal
 {
@@ -5,3 +12,6 @@ interface IAnimal
 	function communicate();
 }
 ?>
+
+</body>
+</html>
